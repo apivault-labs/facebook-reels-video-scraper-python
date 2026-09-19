@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "facebook-reels-video-scraper"
+version = "0.1.0"
+description = "Python SDK for Facebook Reels & Video Scraper on Apify. Collect public Facebook Reels and video results from URLs, searches or profiles through the hosted Apify Actor."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "ApiVault Labs" }]
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31.0"]
+keywords = ["facebook-reels", "facebook-video", "video-scraper", "captions", "social-media", "apify", "python-sdk"]
+
+[project.urls]
+Homepage = "https://github.com/apivault-labs/facebook-reels-video-scraper-python"
+Documentation = "https://github.com/apivault-labs/facebook-reels-video-scraper-python#readme"
+"Apify Actor" = "https://apify.com/apivault_labs/facebook-reels-video-scraper"
+"Bug Tracker" = "https://github.com/apivault-labs/facebook-reels-video-scraper-python/issues"
+
+[tool.setuptools.packages.find]
+include = ["facebook_reels_video_scraper*"]
